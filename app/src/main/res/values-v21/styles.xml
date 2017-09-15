@@ -1,0 +1,20 @@
+<resources>
+
+    <style name="AppTheme.NoActionBar">
+        <item name="windowActionBar">false</item>
+        <item name="windowNoTitle">true</item>
+        <item name="android:windowDrawsSystemBarBackgrounds">true</item>
+        <item name="android:statusBarColor">@android:color/transparent</item>
+    </style>
+
+    <style name="MyDatePicker" parent="android:Theme.Material.Light.Dialog">
+        <!-- Customize your theme here. -->
+        <item name="android:datePickerStyle">@style/MyDatePickerStyle</item>
+        <item name="colorAccent">@color/colorPrimary</item>
+    </style>
+
+    <style name="MyDatePickerStyle" parent="@android:style/Widget.Material.DatePicker">
+        <item name="android:datePickerMode">spinner</item>
+        <item name="colorAccent">@color/colorPrimary</item>
+    </style>
+</resources>

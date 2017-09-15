@@ -1,0 +1,9 @@
+<appwidget-provider xmlns:android="http://schemas.android.com/apk/res/android"
+                    android:minWidth="250dp"
+                    android:minHeight="300dp"
+                    android:updatePeriodMillis="900000"
+                    android:previewImage="@drawable/example_widget"
+                    android:initialLayout="@layout/widget_standard_calculator"
+                    android:resizeMode="horizontal|vertical"
+                    android:widgetCategory="home_screen">
+</appwidget-provider>

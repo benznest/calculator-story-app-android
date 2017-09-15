@@ -1,0 +1,228 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="action_settings">ตั้งค่า</string>
+    <string name="stdCal">เครื่องคิดเลข</string>
+    <string name="sciCal">เครื่องคิดเลขวิทยาศาสตร์</string>
+    <string name="unitCal">ตัวแปลหน่วย</string>
+    <string name="history">ประวัติ</string>
+    <string name="delete_history">ลบประวัติ</string>
+
+    <string name="sqrt_option_1">นำสมการทั้งหมดใส่ √</string>
+    <string name="sqrt_option_2">ใส่ √ ท้ายสมการ</string>
+    <string name="square_option_1">นำสมการทั้งหมดใส่ ^2 </string>
+    <string name="square_option_2">ใส่ ^2 ท้ายสมการ</string>
+    <string name="custom_option_1">นำสมการทั้งหมดใส่  %s</string>
+    <string name="custom_option_2">ใส่ %s ท้ายสมการ</string>
+    <string name="ok">ตกลง</string>
+
+    <string name="calculator">เครื่องคิดเลข</string>
+    <string name="converter">ตัวแปลง</string>
+    <string name="programmer_calculator">Programmer calculator</string>
+    <string name="date_calculation">Date calculation</string>
+    <string name="length">ความยาว-ระยะทาง</string>
+    <string name="from">จาก</string>
+    <string name="to">ถึง</string>
+    <string name="temperature">อุณหภูมิ</string>
+    <string name="equation">สมการ</string>
+    <string name="constant">ค่าคงที่</string>
+    <string name="data">ข้อมูล</string>
+    <string name="area">พื้นที่</string>
+    <string name="speed">ความเร็ว</string>
+    <string name="weight">น้ำหนัก</string>
+    <string name="volume">ปริมาตร</string>
+    <string name="option">ตัวเลือก</string>
+    <string name="load_equation">โหลดสมการ</string>
+    <string name="save_equation">บันทึกสมการ</string>
+    <string name="insert_constant">แทรกค่าคงที่</string>
+    <string name="copy_to_clipboard">คัดลอก</string>
+    <string name="name">ชื่อ</string>
+    <string name="save">บันทึก</string>
+    <string name="error_name_empty">ชื่อไม่สามารถว่างเปล่า</string>
+    <string name="error_equation_empty">สมการไม่สามารถว่างเปล่า</string>
+    <string name="error_constant_empty">ค่าคงที่ไม่สามารถว่างเปล่า</string>
+    <string name="equation_saved">สมการถูกบันทึกแล้ว</string>
+    <string name="no_data">ไม่มีข้อมูล</string>
+    <string name="are_you_sure_delete">แน่ใจว่าต้องการลบรายการนี้</string>
+    <string name="remove">ลบ</string>
+    <string name="cancel">ยกเลิก</string>
+    <string name="done">สำเร็จ</string>
+    <string name="back">กลับ</string>
+    <string name="length_unit">ระยะทาง</string>
+    <string name="nanometers">นาโนเมตร</string>
+    <string name="microns">ไมโครเมตร</string>
+    <string name="millimeters">มิลลิเมตร</string>
+    <string name="centimeters">เซนติเมตร</string>
+    <string name="meters">เมตร</string>
+    <string name="kilometers">กิโลเมตร</string>
+    <string name="inches">นิ้ว</string>
+    <string name="feet">ฟิต</string>
+    <string name="yards">หลา</string>
+    <string name="miles">ไมล์</string>
+    <string name="nautical_miles">ไมล์ทะเล</string>
+    <string name="celsius">°C (องศาเซลเซียส)</string>
+    <string name="fahrenheit">°F (องศาฟาเรนไฮต์)</string>
+    <string name="kelvin">K (เคลวิน)</string>
+    <string name="reaumur">°R (องศาโรเมอร์)</string>
+    <string name="celsius_small">°C</string>
+    <string name="fahrenheit_small">°F</string>
+    <string name="kelvin_small">K</string>
+    <string name="reaumur_small">°R</string>
+    <string name="replace_result">แทนที่ผลลัพธ์</string>
+    <string name="insert_last">แทรกไว้ท้ายสมการ</string>
+    <string name="between_date_calculation">คำนวณระหว่างวันที่</string>
+    <string name="square_millimeters">ตารางมิลลิเมตร</string>
+    <string name="square_centimeters">ตารางเซนติเมตร</string>
+    <string name="square_meters">ตารางเมตร</string>
+    <string name="square_kilometers">ตารางกิโลเมตร</string>
+    <string name="square_inches">ตารางนิ้ว</string>
+    <string name="square_feet">ตารางฟุต</string>
+    <string name="square_yards">ตารางหลา</string>
+    <string name="square_mile">ตารางไมล์</string>
+    <string name="hectares">เฮกตาร์</string>
+    <string name="acres">เอเคอร์</string>
+    <string name="rai">ไร่</string>
+    <string name="square_wa">ตารางวา</string>
+
+    <string name="centimeters_per_second">เซนติเมตรต่อวินาที</string>
+    <string name="meters_per_second">เมตรต่อวินาที</string>
+    <string name="kilometers_per_hour">กิโลเมตรต่อชั่วโมง</string>
+    <string name="feet_per_second">ฟุตต่อวินาที</string>
+    <string name="miles_per_hour">ไมล์ต่อชั่วโมง</string>
+    <string name="knots">น็อต</string>
+    <string name="mach">มัค</string>
+
+    <string name="bits">บิต</string>
+    <string name="bytes">Bytes</string>
+    <string name="kilobits">Kilobits</string>
+    <string name="kilobytes">Kilobytes</string>
+    <string name="megabits">Megabits</string>
+    <string name="megabytes">Megabytes</string>
+    <string name="gigabits">Gigabits</string>
+    <string name="gigabytes">Gigabytes</string>
+    <string name="terabits">Terabits</string>
+    <string name="terabytes">Terabytes</string>
+    <string name="petabits">Petabits</string>
+    <string name="petabytes">Petabytes</string>
+    <string name="exabits">Exabits</string>
+    <string name="exabytes">Exabytes</string>
+    <string name="zetabits">Zetabits</string>
+    <string name="zetabytes">Zetabytes</string>
+    <string name="yottabits">Yottabits</string>
+    <string name="yottabytes">Yottabytes</string>
+
+    <string name="bits_small">Bits</string>
+    <string name="bytes_small">Bytes</string>
+    <string name="kilobits_small">kb</string>
+    <string name="kilobytes_small">kB</string>
+    <string name="megabits_small">Mb</string>
+    <string name="megabytes_small">MB</string>
+    <string name="gigabits_small">Gb</string>
+    <string name="gigabytes_small">GB</string>
+    <string name="terabits_small">Tb</string>
+    <string name="terabytes_small">TB</string>
+    <string name="petabits_small">Pb</string>
+    <string name="petabytes_small">PB</string>
+    <string name="exabits_small">Eb</string>
+    <string name="exabytes_small">EB</string>
+    <string name="zetabits_small">Zb</string>
+    <string name="zetabytes_small">ZB</string>
+    <string name="yottabits_small">Yb</string>
+    <string name="yottabytes_small">YB</string>
+
+    <string name="carats">กะรัต</string>
+    <string name="milligrams">มิลลิกรัม</string>
+    <string name="grams">กรัม</string>
+    <string name="kilograms">กิโลกรัม</string>
+    <string name="metric_tonnes">ตัน</string>
+    <string name="ounces">ออนส์</string>
+    <string name="pounds">Pounds</string>
+    <string name="stone">Stone</string>
+    <string name="short_tons_us">ตัน (US)</string>
+    <string name="long_tons_uk">ตัน (UK)</string>
+
+    <string name="milliliters">มิลลิลิตร</string>
+    <string name="cubic_centimeters">ลูกบาศก์เซนติเมตร</string>
+    <string name="liters">ลิตร</string>
+    <string name="cubic_meters">ลูกบาศก์เมตร</string>
+    <string name="teaspoons_us">ช้อนชา (US)</string>
+    <string name="tablespoons_us">ช้อนโต๊ะ (Us)</string>
+    <string name="fluid_ounces_us">ออนซ์ (US)</string>
+    <string name="cups_us">ถ้วย (US)</string>
+    <string name="pints_us">ไพนต์ (US)</string>
+    <string name="quarts_us">ควอต (US)</string>
+    <string name="gallons_us">แกลลอน (US)</string>
+    <string name="cubic_inches">ลูกบาศก์นิ้ว</string>
+    <string name="cubic_feet">ลูกบาศก์ฟุต</string>
+    <string name="teaspoons_uk">ช้อนชา (UK)</string>
+    <string name="tablespoons_uk">ช้อนโต๊ะ (UK)</string>
+    <string name="fluid_ounces_uk">ออนซ์ (UK)</string>
+    <string name="pints_uk">ไพนต์ (UK)</string>
+    <string name="quarts_uk">ควอต (UK)</string>
+    <string name="gallons_uk">แหลลอน (UK)</string>
+
+    <string name="setting">ตั้งค่า</string>
+    <string name="language">ภาษา</string>
+    <string name="vibrate">การสั่น</string>
+    <string name="about">เกี่ยวกับ</string>
+    <string name="developer">ผู้พัฒนา</string>
+    <string name="credit">เครดิต</string>
+
+    <string name="more">เพิ่มเติม</string>
+    <string name="version">เวอร์ชัน</string>
+    <string name="startup">เริ่มต้น</string>
+
+    <string name="paste">วาง</string>
+    <string name="paste_last">วางต่อท้าย</string>
+    <string name="save_constant">บันทึกค่าคงที่</string>
+    <string name="feedback">ตอบกลับ</string>
+
+
+    <string name="time">เวลา</string>
+    <string name="power">กำลัง</string>
+    <string name="pressure">ความดัน</string>
+    <string name="energy">พลังงาน</string>
+
+    <string name="watts">วัตต์</string>
+    <string name="kilowatts">กิโลวัตต์</string>
+    <string name="megawatts">เมกกะวัตต์</string>
+    <string name="horsepower">แรงม้า (US)</string>
+    <string name="foot_pound_per_minute">ฟุตปอนด์/นาที</string>
+    <string name="btu_minute">BTUs/นาที</string>
+
+    <string name="atmospheres">ความกันบรรยากาศ</string>
+    <string name="bars">บาร์</string>
+    <string name="kilopascals">กิโลปาสคาล</string>
+    <string name="millimeters_of_mercury">มิลลิเมตรปรอท</string>
+    <string name="pascals">ปาสคาล</string>
+    <string name="pound_per_square_inch">ปอนด์ต่อตารางนิ้ว</string>
+
+    <string name="microseconds">ไมโครวินาที</string>
+    <string name="milliseconds">มิลลิวินาที</string>
+    <string name="seconds">วินาที</string>
+    <string name="minutes">นาที</string>
+    <string name="hours">ชั่วโมง</string>
+    <string name="days">วัน</string>
+    <string name="weeks">สัปดาห์</string>
+    <string name="month">เดือน</string>
+    <string name="years">ปี</string>
+
+    <string name="electron_volts">อิเล็กตรอนโวลต์</string>
+    <string name="joules">จูล</string>
+    <string name="kilojoules">กิโลจูล</string>
+    <string name="food_calories">แคลอรี่</string>
+
+    <plurals name="year">
+        <item quantity="one">ปี</item>
+        <item quantity="other">ปี</item>
+    </plurals>
+
+    <plurals name="month">
+        <item quantity="one">เดือน</item>
+        <item quantity="other">เดือน</item>
+    </plurals>
+
+    <plurals name="day">
+        <item quantity="one">วัน</item>
+        <item quantity="other">วัน</item>
+    </plurals>
+</resources>

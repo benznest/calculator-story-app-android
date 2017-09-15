@@ -1,0 +1,388 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              xmlns:app="http://schemas.android.com/apk/res-auto"
+              xmlns:tools="http://schemas.android.com/tools"
+              android:layout_width="match_parent"
+              android:layout_height="match_parent"
+              android:orientation="vertical"
+              app:layout_behavior="@string/appbar_scrolling_view_behavior">
+
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="start"
+        android:background="@color/colorBackgroundPrimary"
+        android:minHeight="80dp">
+
+
+        <TextView
+            android:id="@+id/tv_result"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="right|center_vertical"
+            android:hint="0"
+            android:maxLines="3"
+            android:padding="16dp"
+            android:scrollbars="vertical"
+            android:textSize="40sp"
+            android:textStyle="bold"/>
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="10dp"
+            android:layout_gravity="bottom"
+            android:background="@color/colorWetAsphalt"/>
+    </FrameLayout>
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/colorPrimary"
+        android:fillViewport="true">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="8dp"
+            android:layout_marginBottom="16dp"
+            android:background="@drawable/shape_rectangle_rounded"
+            android:orientation="vertical"
+            android:padding="8dp">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+
+                <Button
+                    android:id="@+id/btn_a"
+                    style="@style/buttonProgrammerCalculator"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="2dp"
+                    android:layout_weight="1"
+
+                    android:text="A"/>
+
+                <Button
+                    android:id="@+id/btn_b"
+                    style="@style/buttonProgrammerCalculator"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="2dp"
+                    android:layout_weight="1"
+                    android:text="B"/>
+
+                <Button
+                    android:id="@+id/btn_c"
+                    style="@style/buttonProgrammerCalculator"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="2dp"
+                    android:layout_weight="1"
+
+                    android:text="C"/>
+
+
+                <Button
+                    android:id="@+id/backSpace"
+                    style="@style/buttonProgrammerCalculator"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="2dp"
+                    android:layout_weight="1"
+
+                    android:text="@string/backspace"/>
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+
+                <Button
+                    android:id="@+id/btn_d"
+                    style="@style/buttonProgrammerCalculator"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="2dp"
+                    android:layout_weight="1"
+
+                    android:text="D"/>
+
+                <Button
+                    android:id="@+id/btn_e"
+                    style="@style/buttonProgrammerCalculator"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="2dp"
+                    android:layout_weight="1"
+                    android:text="E"/>
+
+                <Button
+                    android:id="@+id/btn_f"
+                    style="@style/buttonProgrammerCalculator"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="2dp"
+                    android:layout_weight="1"
+                    android:text="F"/>
+
+                <Button
+                    android:id="@+id/clear"
+                    style="@style/buttonProgrammerCalculator"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="2dp"
+                    android:layout_weight="1"
+
+                    android:text="@string/clear"/>
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+
+                <Button
+                    android:id="@+id/num7"
+                    style="@style/buttonProgrammerCalculator"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="2dp"
+                    android:layout_weight="1"
+
+                    android:text="7"/>
+
+                <Button
+                    android:id="@+id/num8"
+                    style="@style/buttonProgrammerCalculator"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="2dp"
+                    android:layout_weight="1"
+
+                    android:text="8"/>
+
+                <Button
+                    android:id="@+id/num9"
+                    style="@style/buttonProgrammerCalculator"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="2dp"
+                    android:layout_weight="1"
+
+                    android:text="9"/>
+
+                <Button
+                    android:id="@+id/plus"
+                    style="@style/buttonProgrammerCalculator"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="2dp"
+                    android:layout_weight="1"
+
+                    android:text="+"/>
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+
+                <Button
+                    android:id="@+id/num4"
+                    style="@style/buttonProgrammerCalculator"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="2dp"
+                    android:layout_weight="1"
+
+                    android:text="4"/>
+
+                <Button
+                    android:id="@+id/num5"
+                    style="@style/buttonProgrammerCalculator"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="2dp"
+                    android:layout_weight="1"
+
+                    android:text="5"/>
+
+                <Button
+                    android:id="@+id/num6"
+                    style="@style/buttonProgrammerCalculator"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="2dp"
+                    android:layout_weight="1"
+
+                    android:text="6"/>
+
+                <Button
+                    android:id="@+id/minus"
+                    style="@style/buttonProgrammerCalculator"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="2dp"
+                    android:layout_weight="1"
+
+                    android:text="-"/>
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+
+                <Button
+                    android:id="@+id/num1"
+                    style="@style/buttonProgrammerCalculator"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="2dp"
+                    android:layout_weight="1"
+
+                    android:text="1"/>
+
+                <Button
+                    android:id="@+id/num2"
+                    style="@style/buttonProgrammerCalculator"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="2dp"
+                    android:layout_weight="1"
+
+                    android:text="2"/>
+
+                <Button
+                    android:id="@+id/num3"
+                    style="@style/buttonProgrammerCalculator"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="2dp"
+                    android:layout_weight="1"
+
+                    android:text="3"/>
+
+                <Button
+                    android:id="@+id/divide"
+                    style="@style/buttonProgrammerCalculator"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="2dp"
+                    android:layout_weight="1"
+
+                    android:text="@string/divide"/>
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+
+                <Button
+                    android:id="@+id/posneg"
+                    style="@style/buttonProgrammerCalculator"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="2dp"
+                    android:layout_weight="1"
+
+                    android:text="@string/posneg"/>
+
+                <Button
+                    android:id="@+id/num0"
+                    style="@style/buttonProgrammerCalculator"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="2dp"
+                    android:layout_weight="1"
+
+                    android:text="0"/>
+
+                <Button
+                    android:id="@+id/dot"
+                    style="@style/buttonProgrammerCalculator"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="2dp"
+                    android:layout_weight="1"
+
+                    android:text="."/>
+
+                <Button
+                    android:id="@+id/multiply"
+                    style="@style/buttonProgrammerCalculator"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="2dp"
+                    android:layout_weight="1"
+
+                    android:text="@string/multiply"/>
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+
+                <Button
+                    android:id="@+id/btn_and"
+                    style="@style/buttonProgrammerCalculator"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="2dp"
+                    android:layout_weight="1"
+
+                    android:text="AND"/>
+
+                <Button
+                    android:id="@+id/btn_or"
+                    style="@style/buttonProgrammerCalculator"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="2dp"
+                    android:layout_weight="1"
+
+
+                    android:text="OR"/>
+
+                <Button
+                    android:id="@+id/openBracket"
+                    style="@style/buttonProgrammerCalculator"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="2dp"
+                    android:layout_weight="1"
+
+
+                    android:text="@string/openBracket"/>
+
+                <Button
+                    android:id="@+id/closeBracket"
+                    style="@style/buttonProgrammerCalculator"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="2dp"
+                    android:layout_weight="1"
+
+                    android:text="@string/closeBracket"/>
+            </LinearLayout>
+
+            <Button
+                android:id="@+id/equal"
+                style="@style/buttonProgrammerCalculator"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="2dp"
+
+                android:text="="/>
+
+        </LinearLayout>
+    </ScrollView>
+</LinearLayout>

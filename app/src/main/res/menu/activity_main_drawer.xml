@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+        android:title="@string/calculator">
+        <menu>
+            <item
+                android:id="@+id/nav_standard_calculator"
+                android:icon="@drawable/ic_standard_calculator"
+                android:title="@string/stdCal"/>
+            <item
+                android:id="@+id/nav_scientific_calculator"
+                android:icon="@drawable/ic_scientific_calculator"
+                android:title="@string/sciCal"/>
+            <!--<item-->
+                <!--android:id="@+id/nav_programmer_calculator"-->
+                <!--android:icon="@drawable/ic_programmer_calculator"-->
+                <!--android:title="@string/programmer_calculator"/>-->
+            <item
+                android:id="@+id/nav_date_calculation"
+                android:icon="@drawable/ic_date_calculation"
+                android:title="@string/between_date_calculation"/>
+
+        </menu>
+    </item>
+    <item android:title="@string/data">
+        <menu>
+            <item
+                android:id="@+id/nav_equation"
+                android:icon="@drawable/ic_equation"
+                android:title="@string/equation"/>
+            <item
+                android:id="@+id/nav_constant"
+                android:icon="@drawable/ic_gamma"
+                android:title="@string/constant"/>
+        </menu>
+    </item>
+    <item android:title="@string/converter">
+        <menu>
+            <item
+                android:id="@+id/nav_length_converter"
+                android:icon="@drawable/ic_length"
+                android:title="@string/length"/>
+            <item
+                android:id="@+id/nav_temperature_converter"
+                android:icon="@drawable/ic_temperature"
+                android:title="@string/temperature"/>
+            <item
+                android:id="@+id/nav_area"
+                android:icon="@drawable/ic_area"
+                android:title="@string/area"/>
+            <item
+                android:id="@+id/nav_speed"
+                android:icon="@drawable/ic_speed"
+                android:title="@string/speed"/>
+            <item
+                android:id="@+id/nav_data"
+                android:icon="@drawable/ic_data"
+                android:title="@string/data"/>
+            <item
+                android:id="@+id/nav_weight"
+                android:icon="@drawable/ic_weight"
+                android:title="@string/weight"/>
+            <item
+                android:id="@+id/nav_volume"
+                android:icon="@drawable/ic_volume"
+                android:title="@string/volume"/>
+
+            <item
+                android:id="@+id/nav_time"
+                android:icon="@drawable/ic_time"
+                android:title="@string/time"/>
+            <item
+                android:id="@+id/nav_power"
+                android:icon="@drawable/ic_power"
+                android:title="@string/power"/>
+            <item
+            android:id="@+id/nav_pressure"
+            android:icon="@drawable/ic_pressure"
+            android:title="@string/pressure"/>
+            <item
+            android:id="@+id/nav_energy"
+            android:icon="@drawable/ic_energy"
+            android:title="@string/energy"/>
+
+        </menu>
+    </item>
+    <item android:title="@string/more">
+        <menu>
+            <item
+                android:id="@+id/nav_feedback"
+                android:icon="@drawable/ic_star"
+                android:title="@string/feedback"/>
+            <item
+                android:id="@+id/nav_about"
+                android:icon="@drawable/ic_about"
+                android:title="@string/about"/>
+        </menu>
+    </item>
+</menu>

@@ -1,0 +1,39 @@
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+             android:id="@+id/content_container"
+             android:layout_width="match_parent"
+             android:layout_height="match_parent"
+             android:background="@color/colorBackgroundPrimary">
+
+    <ListView
+        android:id="@+id/listView"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:paddingLeft="16dp"
+        android:paddingRight="16dp"/>
+
+    <TextView
+        android:id="@+id/tv_no_data"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:text="@string/no_data"
+        android:textSize="18sp"/>
+
+</FrameLayout>
+    <!--<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"-->
+    <!--android:layout_width="match_parent"-->
+    <!--android:layout_height="match_parent">-->
+
+    <!--<LinearLayout-->
+    <!--android:layout_width="match_parent"-->
+    <!--android:layout_height="wrap_content"-->
+    <!--android:orientation="vertical">-->
+
+    <!--<include layout="@layout/row_equation"/>-->
+
+    <!--<include layout="@layout/row_equation"/>-->
+
+    <!--<include layout="@layout/row_equation"/>-->
+    <!--</LinearLayout>-->
+    <!--</ScrollView>-->
+    <!--</FrameLayout>-->

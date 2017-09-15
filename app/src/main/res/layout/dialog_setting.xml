@@ -1,0 +1,136 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              xmlns:flatui="http://schemas.android.com/apk/res-auto"
+              android:layout_width="match_parent"
+              android:layout_height="wrap_content"
+              android:layout_margin="16dp"
+              android:background="@drawable/dialog_rounded_corner_bg"
+              android:minWidth="@dimen/min_width_dialog"
+              android:orientation="vertical"
+              android:padding="16dp">
+
+    <TextView
+        android:id="@+id/tv_header"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="8dp"
+        android:minWidth="140dp"
+        android:text="@string/setting"
+        android:textAlignment="center"
+        android:textSize="26sp"
+        android:textStyle="bold"/>
+
+
+    <LinearLayout
+        android:id="@+id/ll_condition"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="8dp"
+        android:orientation="vertical">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginRight="4dp"
+            android:layout_marginTop="8dp"
+            android:minHeight="40dp"
+            android:layout_weight="1"
+            android:orientation="horizontal">
+
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_vertical"
+                android:gravity="center"
+                android:minWidth="140dp"
+                android:text="@string/language"
+                android:textSize="16sp"
+                android:id="@+id/textView2"/>
+
+
+            <Button
+                android:id="@+id/btn_language"
+                android:layout_width="140dp"
+                android:layout_height="wrap_content"
+                android:background="@drawable/selector_btn_3d_yellow"
+                android:text="ไทย"
+                android:textAllCaps="false"
+                android:textColor="@color/colorTextPrimary"
+                android:textSize="14sp"/>
+
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginRight="4dp"
+            android:layout_marginTop="8dp"
+            android:minHeight="40dp"
+            android:layout_weight="1"
+            android:orientation="horizontal">
+
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_vertical"
+                android:gravity="center"
+                android:minWidth="140dp"
+                android:text="@string/startup"
+                android:textSize="16sp"/>
+
+
+            <Button
+                android:id="@+id/btn_startup"
+                android:layout_width="140dp"
+                android:layout_height="wrap_content"
+                android:background="@drawable/selector_btn_3d_yellow"
+                android:text="Scientific calculator"
+                android:textAllCaps="false"
+                android:textColor="@color/colorTextPrimary"
+                android:textSize="14sp"/>
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginRight="4dp"
+            android:layout_marginTop="8dp"
+            android:minHeight="40dp"
+            android:layout_weight="1"
+            android:orientation="horizontal">
+
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_vertical"
+                android:gravity="center"
+                android:minWidth="140dp"
+                android:text="@string/vibrate"
+                android:textSize="16sp"/>
+
+
+            <android.support.v7.widget.SwitchCompat
+                android:id="@+id/switch_vibrate"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_vertical"
+                android:layout_marginRight="16dp"
+                android:layout_marginLeft="16dp"
+                android:theme="@style/MySwitch"/>
+
+        </LinearLayout>
+    </LinearLayout>
+
+    <Button
+        android:id="@+id/btn_save"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/selector_btn_3d_green"
+        android:text="@string/save"
+        android:textColor="@color/colorTextPrimary"
+        android:textSize="18sp"/>
+
+</LinearLayout>

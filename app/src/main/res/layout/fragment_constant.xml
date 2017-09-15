@@ -1,0 +1,36 @@
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+             xmlns:app="http://schemas.android.com/apk/res-auto"
+             android:id="@+id/content_container"
+             android:layout_width="match_parent"
+             android:layout_height="match_parent"
+             android:background="@color/colorBackgroundPrimary">
+
+    <ListView
+        android:id="@+id/listView"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:clipToPadding="false"
+        android:paddingBottom="64dp"
+        android:paddingLeft="16dp"
+        android:paddingRight="16dp"/>
+
+    <TextView
+        android:id="@+id/tv_no_data"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:text="@string/no_data"
+        android:textSize="18sp"/>
+
+    <android.support.design.widget.FloatingActionButton
+        android:id="@+id/fab_create_constant"
+        android:layout_width="60dp"
+        android:layout_height="60dp"
+        android:layout_gravity="bottom|right"
+        android:layout_margin="32dp"
+        android:src="@android:drawable/ic_input_add"
+        android:tint="@color/colorTextPrimary"
+        app:elevation="6dp"
+        app:pressedTranslationZ="12dp"
+        />
+</FrameLayout>
