@@ -6,20 +6,18 @@ Calculator App by Benznest on Android Native.
 Open project in Android Studio.
 
 
-![Benznest](images/ss_p_2.png)
-![Benznest](images/ss_p_3.png)
+![Benznest](images/ss_p2.png)
+![Benznest](images/ss_p3.png)
 
-![Benznest](images/ss_p_4.png)
-![Benznest](images/ss_p_5.png)
+![Benznest](images/ss_p4.png)
+![Benznest](images/ss_p5.png)
 
-![Benznest](images/ss_p_6.png)
-![Benznest](images/ss_p_7.png)
+![Benznest](images/ss_p7.png)
+![Benznest](images/ss_p8.png)
 
-![Benznest](images/ss_p_8.png)
+![Benznest](images/ss_t1.png)
 
-![Benznest](images/ss_t_1.png)
-
-![Benznest](images/ss_t_2.png)
+![Benznest](images/ss_t2.png)
 
 
 ## Blog
