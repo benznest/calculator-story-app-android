@@ -22,9 +22,9 @@ Open project in Android Studio.
 
 
 ## Blog
-[Diary EP.1](https://benzneststudios.com/blog/benznest-app/review-crypto-story-ep-1/)
+[Diary EP.1](https://benzneststudios.com/blog/benznest-app/review-calculator-story/)
 
-[Diary EP.2](https://benzneststudios.com/blog/benznest-app/review-crypto-story-ep-2/)
+[Diary EP.2](https://benzneststudios.com/blog/benznest-app/review-calculator-story-1-1/)
 
 ## Licence
 Copyright 2019 benznest
