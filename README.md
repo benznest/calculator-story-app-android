@@ -5,6 +5,7 @@ Calculator App by Benznest on Android Native.
 ## How to use
 Open project in Android Studio.
 
+
 ![Benznest](images/ss_p_2.png)
 ![Benznest](images/ss_p_3.png)
 
@@ -23,7 +24,6 @@ Open project in Android Studio.
 
 ## Blog
 [Diary EP.1](https://benzneststudios.com/blog/benznest-app/review-calculator-story/)
-
 [Diary EP.2](https://benzneststudios.com/blog/benznest-app/review-calculator-story-1-1/)
 
 ## Licence
