@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
-          package="com.benzneststudios.calculatorstory.calculatorstory">
+          package="com.benznestdeveloper.calculatorstory.calculatorstory">
 
     <uses-permission android:name="android.permission.INTERNET"/>
     <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE"/>
@@ -8,19 +8,19 @@
     <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE"/>
 
     <application
-        android:name=".MyApplication"
+        android:name="com.benznestdeveloper.calculatorstory.calculatorstory.MyApplication"
         android:allowBackup="true"
         android:icon="@mipmap/ic_app"
         android:label="@string/app_name"
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
         <activity
-            android:name=".activity.MainActivity"
+            android:name="com.benznestdeveloper.calculatorstory.calculatorstory.activity.MainActivity"
             android:label="@string/app_name"
             android:theme="@style/AppTheme"
             android:configChanges="orientation">
         </activity>
-        <activity android:name=".activity.SplashScreenActivity">
+        <activity android:name="com.benznestdeveloper.calculatorstory.calculatorstory.activity.SplashScreenActivity">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN"/>
                 <category android:name="android.intent.category.LAUNCHER"/>
@@ -31,7 +31,7 @@
             android:value="7a9afd0beedc81839b6b261bbd8c6164c1052e11" />
 
         <receiver
-            android:name=".widget.MyWidgetProvider"
+            android:name="com.benznestdeveloper.calculatorstory.calculatorstory.widget.MyWidgetProvider"
             android:label="Calculator Story">
             <intent-filter>
                 <action android:name="android.appwidget.action.APPWIDGET_UPDATE"/>

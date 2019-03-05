@@ -17,9 +17,9 @@ repositories {
 
 android {
     compileSdkVersion 25
-    buildToolsVersion "25.0.1"
+    buildToolsVersion "26.0.2"
     defaultConfig {
-        applicationId "com.benzneststudios.calculatorstory.calculatorstory"
+        applicationId "com.benznestdeveloper.calculatorstory.calculatorstory"
         minSdkVersion 15
         targetSdkVersion 25
         versionCode 3

@@ -253,6 +253,7 @@
     <string name="joules">Joules</string>
     <string name="kilojoules">Kilojoules</string>
     <string name="food_calories">Food calories</string>
+    <string name="ads_id">ca-app-pub-8439082072622445/4351213400</string>
 
     <plurals name="year">
         <item quantity="one">year</item>
